@@ -1,0 +1,187 @@
+
+body{
+    background-color: rgb(23, 199, 87);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#000;
+    color: #fff;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    align-items: center;
+   font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: auto;
+
+  }
+  
+  .menu li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration:none;
+    font-weight:bold bold;
+  }
+  .menu li a:hover{
+    color:pink;
+  }
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+    display:none;
+}
+
+.brand li {
+    display: inline;
+    align-items: right;
+    margin-right: 950px;
+    font-weight:bolder;
+    font-size: 2rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: rgb(5, 209, 46);
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
+}
+
+.hero {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 32px;
+    font-size: 30px;
+    background-color: #fff;
+    color: #000;
+    border:5px solid #000;
+    border-radius: 50px;
+    text-decoration:underline;
+    cursor : pointer;
+    border-color: #000;
+    color: blueviolet;
+  }
+
+.btn:hover{
+    background-color:rgb(11, 226, 11);
+    color:black;
+}
+
+
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.2rem ;
+    
+}
+.songItem:hover{
+    color:rgb(193, 10, 244)
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.more{
+    display:inline;
+    align-items:center;
+    margin-top: 460px;
+    margin-left: 100px;
+    font-size: 1.2rem;
+    border: 0.5em solid #004993;
+    border-radius: 20%;
+    height: 90%;     
+}
+
+.more:hover{
+    color:rgb(244, 11, 131);
+  }
+  
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
